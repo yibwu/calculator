@@ -43,6 +43,7 @@ public class State8 extends State {
             fsm.getShowScreen().deleteCharAt(0); 
             fsm.setLeft(fsm.getResult().toString());
         }     
+
         fsm.setIsResultNega();
         fsm.setIsLeftNega(fsm.getIsResultNega());
     }
@@ -53,6 +54,7 @@ public class State8 extends State {
         } else {
             fsm.setLeft(fsm.getResult().toString());           
         }    
+
         fsm.setIsLeftNega(fsm.getIsResultNega());
         fsm.setIsRightNega(false);
         fsm.setRight("0");

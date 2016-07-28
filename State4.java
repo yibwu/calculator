@@ -21,6 +21,7 @@ public class State4 extends State {
     
     public void handleNonzeroDigit(String ch) {
         StringBuilder sb = fsm.getRight();
+
         if (sb.toString().equals("0")) {
             sb.setLength(0);
         }

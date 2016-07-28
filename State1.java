@@ -13,6 +13,7 @@ public class State1 extends State {
     public void handleNonzeroDigit(String ch) {
         StringBuilder sb = fsm.getLeft();
         StringBuilder sc = fsm.getShowScreen();
+
         if (sb.toString().equals("0")) {
             sb.setLength(0);
         }

@@ -13,7 +13,6 @@ import calculator.State7;
 import calculator.State8;
 
 public class FSM {
-    ;
     private State s1;
     private State s2;
     private State s3;

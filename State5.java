@@ -14,6 +14,7 @@ public class State5 extends State {
     public void handleNonzeroDigit(String ch) {
         StringBuilder sb = fsm.getRight();
         StringBuilder sc = fsm.getShowScreen();
+
         if (sb.toString().equals("0")) {
             sb.setLength(0);
         }
